@@ -16,7 +16,7 @@
 
 // No. 2
 // const ambilDataUser = async () => {
-//   fetch("https://jsonplaceholder.typicode.com/users")
+//   fetch("https://reqres.in/api/users")
 //     .then((response) => response.json())
 //     .then((json) => console.log(json));
 // };
@@ -25,7 +25,7 @@
 
 // No. 3
 // const ambilDataUser = async () => {
-//   const response = await fetch("https://jsonplaceholder.typicode.com/users");
+//   const response = await fetch("https://reqres.in/api/users");
 //   const json = await response.json();
 //   console.log(json);
 // };
@@ -36,9 +36,7 @@
 // const axios = require("axios");
 
 // const ambilDataUser = async () => {
-//   const response = await axios.get(
-//     "https://jsonplaceholder.typicode.com/users"
-//   );
+//   const response = await axios.get("https://reqres.in/api/users");
 //   console.log(response.data);
 // };
 
